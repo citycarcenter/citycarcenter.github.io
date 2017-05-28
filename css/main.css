@@ -1496,7 +1496,7 @@ header .header-logo a {
     width: 100%;
     height: 100%;
     background-color: #151515;
-    /* background-image: url(../images/hero-bg.jpg); */
+    background-image: url(../imagess/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center 30%;
     -webkit-background-size: cover;
@@ -2504,6 +2504,19 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-size: cover;
   padding: 12rem 0 12rem;
   position: relative;
+}
+@media only screen and (max-width: 768px) {
+  #contact {
+    background-color: #111111;
+    background-image: url(../images/contactbg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 12rem 0 12rem;
+    position: relative;
+  }
 }
 #contact .overlay {
   position: absolute;
